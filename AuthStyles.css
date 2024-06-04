@@ -1,0 +1,60 @@
+/* ===================================
+========= register page  */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background-image: url('C:\Users\namra\Desktop\SJ\client\src\images\im.jpeg');  }
+  
+  .form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .form-container form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+  }
+  
+  .form-container form button {
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 0;
+    background-color: #760a0a;
+    color: white;
+    width: 250px;
+  }
+  
+  .form-container form button:hover {
+    border: 1px solid rgb(106, 214, 84);
+    background: #137e09; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+  }
+  .red-button {
+    color: white;
+    background-color: red;
+    border-color: red;
+  }
+  
+  .red-button:hover {
+    background-color: darkred;
+    border-color: darkred;
+  }
+  .navbar-brand{
+   color: #830606;
+   font-size: 35px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
