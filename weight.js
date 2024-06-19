@@ -23,10 +23,15 @@ export const weight = [
       _id: 4,
       name: "60 to 70",
       array: [80, 99],
-    },
+    },     
     {
       _id: 4,
-      name: "70gm or more",
+      name: "70gm or 80gm",
       array: [100, 9999],
+    },
+    {
+        _id :5,
+        name:"80gm or more",
+        array:[100,9999],
     },
   ];
